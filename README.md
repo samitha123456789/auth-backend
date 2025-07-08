@@ -30,3 +30,22 @@
 
 ```bash
 NestJS · TypeScript · PostgreSQL · JWT · Bcrypt · PassportJS · Nodemailer
+
+```
+## ⚙️ Setup & Run
+```bash
+# Clone the repo
+
+git clone https://github.com/your-username/nestjs-auth-backend.git
+cd nestjs-auth-backend
+
+# Install dependencies
+npm install
+
+# Setup PostgreSQL DB and env file
+cp .env.example .env
+# Add DB credentials and JWT_SECRET to .env
+
+# Run the dev server
+npm run start:dev
+
